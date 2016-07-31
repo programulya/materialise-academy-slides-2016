@@ -1,0 +1,4 @@
+*.md.swp
+*.swp
+*.html.swp
+.idea/

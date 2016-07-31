@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Undefined</title>
+    <meta charset="utf-8">
+    <style>
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+body { font-family: 'Droid Serif'; }
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+}
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+      class: center, middle
+
+      # Basic syntax
+      ---
+      # Where to start?
+      1. W3School : 
+      <a href="http://www.w3schools.com/js/js_intro.asp">
+        http://www.w3schools.com/js/js_intro.asp
+      </a>
+      2. Mozilla crash course : 
+      <a href="https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics">https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics</a> 
+      3. Youtube
+
+      4. Books <p>
+      <img style="width:256px;height:468px;" 
+           src="http://t0.gstatic.com/images?q=tbn:ANd9GcTRJVMsmtzmYn0U1Vrl_uI4X0Xbct7KvYhjeqEg7QxjBGn6fZx7"></img>
+      ---
+      #Reintroduction into JS
+
+      ###JavaScript is an object-oriented dynamic language with types and operators, standard built-in objects, and methods. Its syntax is based on the Java and C languages.. bla bla bla
+
+      ---
+      # Basic types
+
+      - Number
+
+      - String
+
+      - Function
+
+      - Object
+
+      - Symbol (EcmaScript 6)
+
+      ### What about null, undefined, true, Array, Date, RegExp?
+
+      ---
+      # Basic types full
+
+      - Number
+
+      - String
+
+      - Boolean
+
+      - Object
+        - Array
+        - Date
+        - RegExp
+        - Function
+
+      - null
+
+      - undefined
+      - Symbol (EcmaScript 6)
+
+      ---
+      #Basic types example
+
+      ## Number
+      var a = 10; _(float inside)_
+      var b = 10.0; _(float inside)_
+      var c = 10.000; _(float inside)_
+
+      a == b  <p>
+      b === c <p>
+      a == c  <p>
+
+      ### Quiz.
+      What is the output <p>
+      var d = parseInt("10+ten");
+
+      ---
+      #Function
+
+      ##What is it?
+      ``` javascript
+      function foo(){
+        bar();
+      }
+      ```
+      ---
+      #Object
+
+      ##What is it?
+      ``` javascript
+      var foobar = function foo(){
+        bar();
+      }
+      ```
+      ---
+      #Hmm..
+
+      ``` javascript
+      var foobar = function foo(){
+        bar();
+      }
+
+      function foo2(foobar) {
+        foobar();
+      }
+      ```
+      ---
+      # Operators
+
+      1. ==
+
+      2. ===
+
+      ## What is type casting?
+      ---
+      class: middle, center
+      # Classes and inheritance
+
+      ## Does JavaScript have classes?
+      ---
+      class: middle, center
+      # Prototypal VS classic inheritance
+
+      ---
+      ## Classic
+      C#
+      ``` c#
+      // file PricingAlgorithm.cs
+      class PricingAlgorithm
+      {
+        Money GetPrice();
+      }
+
+      // file GoldPricingAlgorith.cs
+      class GoldPricingAlgorith : PricingAlgorithm 
+      {
+        Money GetPrice();
+      }
+ 
+      // file SilverPricingAlgorith.cs
+      class SilverPricingAlgorith : PricingAlgorithm 
+      {
+        Money GetPrice();
+      }
+      ```
+
+
+      ---
+      ## Prototypal
+
+      <img 
+      style="width:640px; height:320px;"
+      src="http://2.bp.blogspot.com/-2iiLW6wtEO0/UGtDX-ZP_oI/AAAAAAAAAfQ/FpSFCEg1k7Q/s1600/Javascript+Prototypal+Inheritance+Diagram+-+grand+picture+(3).png">
+      </img>
+
+      ---
+      ## Prototypal explained by example
+
+      ``` javascript
+       var human = {
+        name: "george",
+        eat: function() {
+         // I am hungry.. br-br-br..
+       }
+
+       var george = Object.new(human);
+       var george = {};
+
+       // monkey patching.
+       george.prototype = human;
+       george.prototype = {
+         var name: "I am Vika now!!";
+       }
+      ```
+
+      ---
+      ## Questions so far?
+
+      ---
+      ## Functional programming
+      
+      1. What is functional programming
+      2. What is object-oriented programming
+      3. Imperative programming VS functional programming VS declarative
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+var slideshow = remark.create();
+    </script>
+  </body>
+</html>
