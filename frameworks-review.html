@@ -55,8 +55,9 @@
 
       1. One more layer of MVC -> MVVM
       <a href="https://johnpapa.net/angular-style-guide/">John Papa</a>
-2. Template
-        ``` javascript
+
+      2. Template
+      ``` javascript
       <ul>
             <li ng-repeat="phone in phones">
                 <span>{{phone.name}}</span>
@@ -87,13 +88,11 @@
               self.phone = response.data;
               self.setImage(self.phone.images[0]);
             });
-                                                }
+        }
       ```
       ---
       # Services
       ``` javascript
-
-
       angular.
       module('myServiceModule', []).
       controller('MyController', ['$scope', 'notify', function ($scope, notify) {
@@ -111,9 +110,7 @@
           }
          };
       }]);
-
       ```
-
       ---
       # React
       
@@ -127,7 +124,7 @@
       <img src="http://reactfordesigners.com/images/labs/jquery-style-vs-react-style.png" style="width:300px;height:400px;"/>
 
       ---
-      # typical component
+      # Typical component
 
       ``` javascript
       var MyComponent = React.createClass({
@@ -142,7 +139,6 @@
               </div>
             );
         }
-
       });
 
       ```
@@ -213,7 +209,7 @@
 
       6. Backbone +
 
-      7. Polymer
+      7. Polymer +
 
       8. Knockout (is not even a framework) +
 
