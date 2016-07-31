@@ -195,6 +195,56 @@
       </div>
       ```
       ---
+      # Polymer
+
+      <img src="https://www.polymer-project.org/images/logos/p-logo.png" style="width:300px;height:256px"/>
+
+      The Polymer Project is an open-source project led by a team of front-end developers working within the Chrome organization at Google.
+      ---
+      # Main concept
+
+      1. Polymer is a lightweight library that helps you take full advantage of Web Components.
+
+      2. With Web Components, you can create reusable custom elements that interoperate seamlessly with the browser’s built-in elements, or break your app up into right-sized components, making your code cleaner and less expensive to maintain.
+
+      3. Polymer sprinkles a bit of sugar over the standard Web Components APIs, making it easier for you to get great results.
+
+      ---
+      # Typical component
+
+      ``` javascript
+      <dom-module id="element-name">
+
+        <template>
+            <style>
+                /* CSS rules for your element */
+            </style>
+
+            <!-- local DOM for your element -->
+
+            <div>{{greeting}}</div> <!-- data bindings in local DOM -->
+        </template>
+
+        <script>
+            // element registration
+            Polymer({
+                is: "element-name",
+
+                // add properties and methods on the element's prototype
+
+                properties: {
+                    // declare properties for the element's public API
+                    greeting: {
+                        type: String,
+                        value: "Hello!"
+                    }
+                }
+            });
+        </script>
+
+      </dom-module>
+      ```
+      ---
       # Where to go?
 
       1. Angular (TypeScript) ++
