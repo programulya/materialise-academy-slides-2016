@@ -2,9 +2,7 @@
 
 Slides for Materialise Academy - 2016 (JS).
 
-##Links
-
-###JavaScript
+##JavaScript
 === books ===
 - Douglas Crockford "JavaScript: The Good Parts" http://it-ebooks.info/book/274
 - Marijn Haverbeke "Eloquent JavaScript" http://eloquentjavascript.net
@@ -26,7 +24,7 @@ Slides for Materialise Academy - 2016 (JS).
 - https://www.youtube.com/watch?v=bo36MrBfTk4 - Douglas Crockford: The Better Parts - JSConfUY 2014
 - http://jhusain.github.io/learnrx/ - Functional Programming in Javascript
 
-###HTML
+##HTML
 - http://www.html5rocks.com/en
 - http://html5doctor.com
 - http://diveintohtml5.info
@@ -37,7 +35,7 @@ Slides for Materialise Academy - 2016 (JS).
 - http://caniuse.com
 - https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills 
 
-###CSS
+##CSS
 - http://css-tricks.com
 - http://csswizardry.com
 - http://www.smashingmagazine.com
@@ -54,12 +52,12 @@ Slides for Materialise Academy - 2016 (JS).
 - http://lea.verou.me/css3-secrets/#intro
 - http://lea.verou.me/more-css-secrets/#intro
 
-###Methodologies
+##Methodologies
 - http://bem.info/method
 - http://oocss.org
 - http://www.kapowaz.net/articles/cargo-cult-css
 
-###Bootstrap/preprocessors 
+##Bootstrap/preprocessors 
 === preprocessors & mixin libraries ===
 - http://sass-lang.com/guide
 - http://compass-style.org
@@ -77,14 +75,14 @@ Slides for Materialise Academy - 2016 (JS).
 - http://foundation.zurb.com/docs
 - http://responsive.vermilion.com/compare.php
 
-###ES 2015
+##ES 2015
 - https://leanpub.com/understandinges6/read
 - https://drive.google.com/file/d/0B4PVbLpUIdzoUjdmSkFtVVozQnM/view
 - https://github.com/lukehoban/es6features
 - https://github.com/addyosmani/es6-tools
 - http://kangax.github.io/compat-table/es6
 
-###Other
+##Other
 - http://latentflip.com/loupe/?code=Y29uc29sZS5sb2coIkhlbGxvLCB3b3JsZCEiKTsgIAo%3D
 - https://www.youtube.com/watch?v=8aGhZQkoFbQ - Philip Roberts: What the heck is the event loop anyway? | JSConf EU 2014
 - http://habrahabr.ru/company/tradingview/blog/178261       
